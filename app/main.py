@@ -11,7 +11,7 @@ if __name__ == "__main__":
     print(result)"""
 
 
-from extractors.quotes import extract_quotes
+"""from extractors.quotes import extract_quotes
 
 
 if __name__ == "__main__":
@@ -19,4 +19,15 @@ if __name__ == "__main__":
     results = extract_quotes()
 
     for item in results:
-        print(item)
+        print(item)"""
+
+
+from extractors.books import extract_books
+
+
+if __name__ == "__main__":
+
+    results = extract_books()
+
+    for book in results:
+        print(book)
