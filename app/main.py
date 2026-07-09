@@ -1,4 +1,4 @@
-from extractors.wikipedia import search_wikipedia
+"""from extractors.wikipedia import search_wikipedia
 
 
 if __name__ == "__main__":
@@ -8,4 +8,15 @@ if __name__ == "__main__":
         3
     )
 
-    print(result)
+    print(result)"""
+
+
+from extractors.quotes import extract_quotes
+
+
+if __name__ == "__main__":
+
+    results = extract_quotes()
+
+    for item in results:
+        print(item)
